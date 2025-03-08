@@ -4,41 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GambleX - 온라인 베팅의 중심</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css"> <!-- corrected -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-  <style>
-    .banner-img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    .section-title {
-      font-size: 20px;
-      margin-bottom: 15px;
-      color: #ff9800;
-      text-align: left;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
     <div class="login-box">
-      <h2>갬블X에 오신걸 환영합니다</h2>
+      <h2 class="logo">🎲 Gamble<span style="color: #ff9800;">X</span></h2>
 
-      <!-- Sports Betting Section -->
       <div class="section">
         <h3 class="section-title">스포츠 베팅</h3>
-        <img src="https://cdn.pixabay.com/photo/2016/03/27/21/16/dice-1283882_960_720.jpg" alt="스포츠 베팅 이미지" class="banner-img">
+        <img src="sports.jpg" alt="스포츠 베팅 이미지" class="banner-img">
       </div>
 
-      <!-- Casino Section -->
       <div class="section">
         <h3 class="section-title">카지노 게임</h3>
-        <img src="https://cdn.pixabay.com/photo/2015/07/31/11/46/cards-869215_960_720.jpg" alt="카지노 이미지" class="banner-img">
+        <img src="casino.jpg" alt="카지노 이미지" class="banner-img">
       </div>
 
-      <!-- Login Form -->
-      <form id="loginForm" action="#">
+      <form id="loginForm">
         <input type="text" name="username" placeholder="아이디" required>
         <input type="password" name="password" placeholder="비밀번호" required>
         <input type="submit" value="로그인">
