@@ -13,7 +13,7 @@ GambleX simulates a realistic gambling website experience, which then redirects 
 ## 📂 Project Files
 
 - **`index.html`**  
-  A landing page simulating a real gambling site.
+  A landing page simulating a real gambling site's login page.
 
 - **`illegal.html`**  
   An educational page about gambling's risks and hotline contacts for support.
