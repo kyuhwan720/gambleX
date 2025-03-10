@@ -38,17 +38,15 @@ GambleX simulates a realistic gambling website experience, which then redirects 
 
 This project is deployed using AWS S3 Static Website Hosting with an automated CI/CD pipeline using GitHub Actions.
 
+Diagram: ![](/gambleX.drawio.png)
+
 Deployment Steps:
 
-Created an S3 bucket with static website hosting enabled.
-
-Configured public access settings to allow website access.
-
-Set up an IAM user with the necessary permissions for automated deployment.
-
-Configured GitHub Actions to deploy changes automatically to S3.
-
-Accessed the website via the S3 static website URL.
+1. Created an S3 bucket with static website hosting enabled.
+2. Configured public access settings to allow website access.
+3. Set up an IAM user with the necessary permissions for automated deployment.
+4. Configured GitHub Actions to deploy changes automatically to S3. 
+5. Accessed the website via the S3 static website URL.
 
 ---
 
