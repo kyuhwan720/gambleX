@@ -4,6 +4,14 @@ GambleX is an educational web project designed to raise awareness about the dang
 
 ---
 
+## 📸 Why did I decide to do this project?
+
+![](/gamblingsites.PNG)
+
+A significant issue is that many pirated webtoon websites host advertisements for illegal gambling platforms. These banners are designed to lure unsuspecting users into gambling activities, often using deceptive promotions and enticing visuals. To raise awareness of this issue, GambleX includes screenshots of such banners to demonstrate how these gambling sites infiltrate everyday browsing experiences. By highlighting these examples, the project aims to educate users on recognizing and avoiding such deceptive advertisements.
+
+---
+
 ## 🚀 Project Overview
 
 GambleX simulates a realistic gambling website experience, which then redirects visitors to a dedicated educational page highlighting the negative consequences of gambling and offering resources for help.
