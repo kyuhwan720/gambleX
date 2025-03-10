@@ -34,6 +34,24 @@ GambleX simulates a realistic gambling website experience, which then redirects 
 
 ---
 
+## 🌐 Hosting on AWS
+
+This project is deployed using AWS S3 Static Website Hosting with an automated CI/CD pipeline using GitHub Actions.
+
+Deployment Steps:
+
+Created an S3 bucket with static website hosting enabled.
+
+Configured public access settings to allow website access.
+
+Set up an IAM user with the necessary permissions for automated deployment.
+
+Configured GitHub Actions to deploy changes automatically to S3.
+
+Accessed the website via the S3 static website URL.
+
+---
+
 ## ⚠️ Disclaimer
 
 GambleX is purely educational and does not promote gambling in any form. The project aims solely to educate users about the harms associated with gambling and provides resources for assistance.
